@@ -29,4 +29,3 @@ app.get('/help', function(req, res){
 app.use(express.static(__dirname + "/process"));
 
 app.listen(8080);
-console.log("checking");
